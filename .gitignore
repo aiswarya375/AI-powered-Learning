@@ -1,0 +1,16 @@
+# Ignore Python environment
+openvino-env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model files and media
+*.onnx
+*.jpeg
+*.jpg
+*.png
+
+# VSCode settings (optional)
+.vscode/
