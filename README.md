@@ -112,14 +112,54 @@ streamlit run app.py
 
 ---
 
-## 🧠 Future Enhancements
+## ✅ Outcomes
 
-- PDF/document reader integration  
-- Real-time student progress tracking dashboard  
-- Emotion-aware feedback system  
-- Multilingual and regional language support  
+📚 Personalized Learning: Learners can interact with an AI tutor through voice, text, and image-based queries, enabling personalized educational support.
+
+⚡ Fast Inference with OpenVINO: Optimized DistilBERT and BLIP models reduce latency and improve performance, making real-time feedback possible even on lower-end hardware.
+
+🧠 Knowledge Reinforcement: The new Quiz Module encourages active recall and self-assessment with instant feedback.
+
+🖼️ Multi-modal Interaction: BLIP enables image understanding for visual question answering, enhancing accessibility and creativity in education.
+
+🎙️ Voice Support: Learners who are visually impaired or prefer audio-based learning benefit from speech-based interaction.
+
+
 
 ---
+
+## 🌟 Future Scope
+
+🔁 Model Fine-Tuning for Subjects: Fine-tune BLIP and DistilBERT on domain-specific educational data (e.g., math, biology, programming).
+
+📊 Student Analytics Dashboard: Track student progress, quiz performance, time spent, and learning patterns.
+
+🌐 Multilingual Support: Integrate translation + multilingual models for students in regional or non-English-speaking areas.
+
+👩‍🏫 Teacher/Admin Panel: Allow educators to add content, monitor usage, and upload image-based assignments.
+
+🤝 Collaborative Learning Mode: Enable peer-to-peer question exchange and group quiz sessions.
+
+📱 Mobile App Version: Launch a lightweight Android/iOS version using TFLite + OpenVINO backend.
+
+
+
+---
+
+## ⚠️ Limitations
+
+🧠 Model Generalization: BLIP and DistilBERT might misinterpret questions outside their pretraining domain (e.g., niche academic topics).
+
+🌐 Internet Dependency: Some parts (e.g., fetching online content, model downloading) may need internet unless pre-cached.
+
+🖥️ System Requirements: While OpenVINO reduces inference cost, initial setup and local running still require a reasonably capable machine.
+
+🗣️ Speech Accuracy: Quiz and voice modules may have lower accuracy in noisy environments or with strong accents.
+
+💾 Storage for Models: ONNX/OpenVINO models (100MB+) may pose storage issues without proper file hosting or model compression.
+
+---
+
 
 ## 👩‍💻 Authors
 
