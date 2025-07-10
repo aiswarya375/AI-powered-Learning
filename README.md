@@ -21,6 +21,9 @@ An intelligent, multimodal learning platform that enhances student engagement an
 
 - **Engagement Detection**  
   Upload classroom images to analyze student attentiveness using head pose estimation, facial orientation, and gaze direction.
+  
+- **Quiz Module (Mistral-Powered)**  
+  Test your understanding with auto-generated multiple-choice quizzes powered by **Mistral-7B**. This module helps reinforce learning with interactive, AI-curated questions.
 
 - **Fast Inference with OpenVINO**  
   All models are accelerated using OpenVINO™ for optimized CPU/GPU performance.
