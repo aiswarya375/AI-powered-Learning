@@ -107,6 +107,11 @@ optimum-cli export openvino \
   --task visual-question-answering \
   --output openvino_models/blip2
 ```
+**Quiz**
+```
+pip install langchain
+pip install langchain_mistralai
+```
 
 ### 4. Run the Application
 ```bash
